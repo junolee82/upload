@@ -1,11 +1,11 @@
 
-function checkImageType(fileName) {
-	
-		var pattern = /jpg|gif|png|jpeg/i;
+	function checkImageType(fileName) {
 		
-		return fileName.match(pattern);
-		
-	}
+			var pattern = /jpg|gif|png|jpeg/i;
+			
+			return fileName.match(pattern);
+			
+		}
 	
 	function getFileInfo(fullName) {
 		
